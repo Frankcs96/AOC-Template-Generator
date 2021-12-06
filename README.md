@@ -29,16 +29,17 @@ input.txt will be autofilled with your current input of the problem. This will b
 You have to run the program with 2 parameters:
 - Day of the problem
 - Path
+- Session cookie
 
 following command will generate a folder day12 with all the files in the current directory
 
 ```bash
-go run 12 ./
+go run 12 ./ 23420324abc
 ```
 I prefer just to add the executable to the path so I just do this 
 
 ```bash
-aoc 12 ./
+aoc 12 ./ 234234jsd24
 ```
 
 To generate the executable just run

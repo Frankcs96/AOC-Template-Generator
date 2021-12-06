@@ -10,14 +10,15 @@ func main() {
 
 	args := os.Args[1:]
 
-	if len(args) != 2 {
+	if len(args) != 3 {
 
-		fmt.Println("Please enter the correct parameters [daynumber] [Path]")
+		fmt.Println("Please enter the correct parameters [daynumber] [Path] [Session cookie]")
 		os.Exit(-1)
 	}
 
 	day := args[0]
 	path := args[1]
+  session := args[2]
 
 	CreateFolder(day, path)
 
