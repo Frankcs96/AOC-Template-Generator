@@ -1,5 +1,7 @@
 # AOC Template Generator 🎄
 
+# WORK IN PROGRESS ⚙️
+
 I'm tired of creating a folder for each day with the same file structure so why not having a tool to automate that proccess 🛠 !
 
 In case you don't know about Advent of code, it's a website where you will have to face a new challenge from the first of December until the 25th
