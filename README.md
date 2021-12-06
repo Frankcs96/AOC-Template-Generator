@@ -6,6 +6,22 @@ In case you don't know about Advent of code, it's a website where you will have 
 https://adventofcode.com/
 
 
+# Folder and file structure
+
+Example:
+- Day06
+  - day06.go
+  - day06_test.go
+  - input.txt
+  - example_input.txt
+
+all the files have a basic structure to have a quick start of the problems.
+
+the example_input.txt will be empty because this is not your input. This file will be here for adding the example in the problem description.
+I find this really good since you have the solution for that test case so you can test your code in a easy way.
+
+input.txt will be autofilled with your current input of the problem. This will be done using your session cookie and a http request to the advent of code website.
+
 # How to use it
 
 You have to run the program with 2 parameters:
@@ -28,3 +44,4 @@ To generate the executable just run
 ```bash
 go build
 ```
+
