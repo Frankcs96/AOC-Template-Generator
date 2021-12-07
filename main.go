@@ -16,10 +16,19 @@ func main() {
 	}
 
 	day := args[0]
-	// session := args[2]
+	session := args[1]
+
+	serverResponse := GetProblemInput(day, session)
+	err = CheckStatusCode(serverResponse.StatusCode)
+
+	if err != nil {
+		drawError()
+		log.Fatal(err)
+	}
 
 	CreateFolder(day)
-	CreateFiles(day)
+
+	CreateFiles(day, session)
 	drawTree()
 	fmt.Println("Day " + day + " created succesfully good luck and merry xmas!!")
 
