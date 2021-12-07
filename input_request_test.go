@@ -64,5 +64,12 @@ func TestCheckStatusCodes(t *testing.T) {
 		t.Error("200 should not throw an error")
 
 	}
+	err = CheckStatusCode(500)
+
+	if err == nil {
+
+		t.Error("500 should throw an error")
+
+	}
 
 }

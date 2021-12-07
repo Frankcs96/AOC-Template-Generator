@@ -93,5 +93,8 @@ func CheckStatusCode(statusCode int) error {
 	if statusCode == 400 {
 		return errors.New("Invalid session token please try again")
 	}
+	if statusCode == 500 {
+		return errors.New("500: Something happened with the server please try again")
+	}
 	return nil
 }
