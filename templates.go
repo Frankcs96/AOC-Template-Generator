@@ -11,7 +11,7 @@ import (
 
 func TestExampleSolution(t *testing.T) {
 
-	solution := Solution("input-example.txt")
+	solution := Solution("example_input.txt")
 	expected := -1
 
 	if solution != expected {
@@ -22,7 +22,7 @@ func TestExampleSolution(t *testing.T) {
 func TestExampleSolutionPartTwo(t *testing.T) {
 
   t.SkipNow()
-	solution := SolutionPartTwo("input-example.txt")
+	solution := SolutionPartTwo("example_input.txt")
 	expected := -1
 
 	if solution != expected {
@@ -32,6 +32,7 @@ func TestExampleSolutionPartTwo(t *testing.T) {
 }
 func TestSolution(t *testing.T) {
 
+  t.SkipNow()
 	solution := Solution("input.txt")
 	expected := -1
 
